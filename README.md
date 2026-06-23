@@ -1,4 +1,4 @@
-# Aarav Mehta — Developer Portfolio
+# Ripon Hossain Shuvo — Developer Portfolio
 
 A modern, production-ready developer portfolio built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, **shadcn/ui**, and **Framer Motion**. Single-page scrolling layout with dark/light theming, smooth scroll-reveal animations, and fully responsive, mobile-first design.
 
