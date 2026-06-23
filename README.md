@@ -2,6 +2,16 @@
 
 A modern, production-ready developer portfolio built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, **shadcn/ui**, and **Framer Motion**. Single-page scrolling layout with dark/light theming, smooth scroll-reveal animations, and fully responsive, mobile-first design.
 
+[![Website](https://img.shields.io/badge/🌐-Live_Demo-blue)](https://ripon.dev.cv)
+[![GitHub](https://img.shields.io/badge/🐙-GitHub-black)](https://github.com/rhshuvo44)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+## 🌐 Live Demo
+
+**Visit my portfolio:** [https://ripon.dev.cv](https://ripon.dev.cv)
+
+---
+
 ## ✨ Features
 
 - **Hero** — animated intro, profile art, floating stat cards, scrolling tech marquee
@@ -57,8 +67,24 @@ portfolio/
 
 ## 🚀 Getting Started
 
+### Prerequisites
+
+- Node.js 18.17 or later
+- npm or yarn
+
+### Installation
+
 ```bash
+# Clone the repository
+git clone https://github.com/rhshuvo44/ripon-portfolio.git
+
+# Navigate to project directory
+cd ripon-portfolio
+
+# Install dependencies
 npm install
+
+# Run development server
 npm run dev
 ```
 
@@ -84,9 +110,3 @@ All content lives in plain TypeScript objects under `/data` — no backend or CM
 - `data/certifications.ts` — credential cards
 - `data/testimonials.ts` — client reviews
 
-Replace the placeholder SVG illustrations in `/public` (avatar, project thumbnails, certification badges, testimonial avatars) with real photos/screenshots, and swap `public/resume.pdf` with your actual résumé.
-
-## 📌 Notes
-
-- The contact form is **UI only** — no backend/email service is wired up. Hook it up to a service like Resend, Formspree, or your own API route if you need real submissions.
-- Fonts are self-hosted via `@fontsource` packages rather than `next/font/google`, so the project builds in network-restricted environments.

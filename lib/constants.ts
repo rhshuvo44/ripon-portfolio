@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Ripon Hossain Shuvo",
   description:
     "Ripon Hossain Shuvo is a Full Stack Developer specializing in Next.js, Node.js, PostgreSQL, MongoDB, and Docker — building scalable digital systems and high-performance web applications.",
-  url: "https://ripon.dev.cv",
+  url: "http://ripon.dev.cv",
   ogImage: "/og-image.png",
   keywords: [
     "Full Stack Developer",
