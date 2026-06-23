@@ -1,0 +1,13 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g-aws" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5b94d" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#f5b94d" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#0d1011"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#f5b94d" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="200" cy="200" r="120" fill="none" stroke="url(#g-aws)" stroke-width="3"/>
+  <polygon points="200,90 230,150 200,210 170,150" fill="#f5b94d" opacity="0.8"/>
+  <text x="200" y="270" font-family="monospace" font-size="28" fill="#f5b94d" text-anchor="middle" letter-spacing="2" font-weight="bold">AWS</text>
+</svg>

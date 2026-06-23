@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Fraunces", serif;
+    --font-mono: "JetBrains Mono", ui-monospace, monospace;
+    --font-sans: "Inter", system-ui, sans-serif;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 60 9% 98%;
+    --foreground: 200 20% 6%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 20% 6%;
+    --border: 200 10% 88%;
+    --input: 200 10% 88%;
+    --ring: 152 84% 46%;
+    --muted: 60 5% 94%;
+    --muted-foreground: 200 8% 40%;
+    --accent: 60 5% 94%;
+    --accent-foreground: 200 20% 6%;
+    --primary: 152 84% 46%;
+    --primary-foreground: 152 90% 6%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 195 18% 3%;
+    --foreground: 60 9% 96%;
+    --card: 195 16% 5%;
+    --card-foreground: 60 9% 96%;
+    --border: 195 12% 14%;
+    --input: 195 12% 14%;
+    --ring: 152 84% 46%;
+    --muted: 195 14% 8%;
+    --muted-foreground: 200 8% 60%;
+    --accent: 195 14% 9%;
+    --accent-foreground: 60 9% 96%;
+    --primary: 152 84% 46%;
+    --primary-foreground: 152 90% 6%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "ss02";
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .container-px {
+    @apply px-6 sm:px-10 lg:px-16;
+  }
+
+  .grain-overlay {
+    position: relative;
+  }
+  .grain-overlay::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: var(--tw-bg-noise);
+    opacity: 0.03;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+  }
+
+  .section-label {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-signal-500;
+  }
+
+  .gradient-text {
+    background: linear-gradient(120deg, #39f78c 0%, #10e070 45%, #f5b94d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .card-glow {
+    box-shadow: 0 0 0 1px hsl(var(--border)), 0 20px 60px -20px rgba(16, 224, 112, 0.08);
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Swiper overrides */
+.testimonial-swiper .swiper-pagination-bullet {
+  background: hsl(var(--muted-foreground));
+  opacity: 0.4;
+  width: 6px;
+  height: 6px;
+}
+.testimonial-swiper .swiper-pagination-bullet-active {
+  background: #10e070;
+  opacity: 1;
+  width: 18px;
+  border-radius: 4px;
+  transition: width 0.25s ease;
+}
+
+::selection {
+  background: rgba(16, 224, 112, 0.25);
+  color: inherit;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground));
+}
