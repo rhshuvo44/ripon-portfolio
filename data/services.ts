@@ -45,5 +45,13 @@ export const services: Service[] = [
       "Methodical debugging and root-cause analysis — for frontend glitches, backend race conditions, or anything in between.",
     tags: ["Debugging", "Code Review", "Regression Testing"],
     icon: "bug",
+  }, {
+    id: "app-development",
+    index: "06",
+    title: "App Development (React Native)",
+    description:
+      "Cross-platform mobile applications built with React Native — write once, run on both iOS and Android with native performance and pixel-perfect UI.",
+    tags: ["React Native", "Expo", "iOS & Android", "Mobile-First"],
+    icon: "smartphone",
   },
 ];
