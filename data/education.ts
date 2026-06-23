@@ -3,19 +3,19 @@ import { EducationItem } from "@/types";
 export const education: EducationItem[] = [
   {
     id: "edu-1",
-    degree: "B.Tech in Computer Science & Engineering",
-    institution: "Indian Institute of Information Technology",
-    location: "Pune, IN",
-    year: "2019 — 2023",
+    degree: "B.Sc. in Computer Science & Engineering (CSE)",
+    institution: "Dhaka International University",
+    location: "Dhaka, Bangladesh",
+    year: "2023 — 2026",
     description:
-      "Focused on data structures, distributed systems, and database design. Graduated with honors.",
+      "Focusing on software development, database systems, and web technologies.",
   },
   {
     id: "edu-2",
-    degree: "Higher Secondary Education (Science)",
-    institution: "Delhi Public School",
-    location: "Bengaluru, IN",
-    year: "2017 — 2019",
-    description: "Specialized in Physics, Chemistry, and Mathematics.",
+    degree: "Diploma in Engineering (Computer Technology)",
+    institution: "Chandpur Polytechnic Institute (CPI)",
+    location: "Chandpur, Bangladesh",
+    year: "2017 — 2021",
+    description: "Specialized in programming, networking, and system administration.",
   },
 ];

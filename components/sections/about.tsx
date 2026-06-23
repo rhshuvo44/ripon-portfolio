@@ -66,7 +66,7 @@ export function About() {
                     {i === 0 ? (
                       <>
                         I&apos;m <strong className="text-foreground font-semibold">{profile.name}</strong>
-                        {p.replace(/^I'm Aarav Mehta,/, "")}
+                        {p.replace(/^I'm Ripon Hossain Shuvo,/, "")}
                       </>
                     ) : (
                       p

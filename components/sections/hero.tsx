@@ -180,7 +180,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.1 }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-muted-foreground hover:text-signal-500 transition-colors"
+        className="absolute bottom-0 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-muted-foreground hover:text-signal-500 transition-colors"
         aria-label="Scroll to about section"
       >
         <span className="font-mono text-[11px] uppercase tracking-widest">Scroll</span>

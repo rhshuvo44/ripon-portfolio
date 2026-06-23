@@ -18,7 +18,7 @@ export const profile: Profile = {
   availability: "Available for new projects",
   responseTime: "Typical response within 24 hours",
   resumeUrl: "/resume.pdf",
-  avatarUrl: "/avatar.svg",
+  avatarUrl: "/ripon.jpg",
   socials: [
     { name: "GitHub", url: "https://github.com/rhshuvo44", icon: "github" },
     {
