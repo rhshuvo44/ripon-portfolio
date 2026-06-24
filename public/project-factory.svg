@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1e2a3a" rx="12"/>
+  <!-- Dashboard Header -->
+  <rect x="20" y="20" width="360" height="50" fill="#2c3e50" rx="6"/>
+  <text x="40" y="50" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">Factory Evaluation Dashboard</text>
+  <!-- Admin Panel Preview -->
+  <rect x="20" y="85" width="170" height="110" fill="#243342" rx="6"/>
+  <rect x="30" y="95" width="70" height="8" fill="#e94560" rx="4"/>
+  <rect x="30" y="110" width="100" height="6" fill="#4a5a6a" rx="3"/>
+  <rect x="30" y="125" width="80" height="6" fill="#4a5a6a" rx="3"/>
+  <rect x="30" y="140" width="120" height="6" fill="#4a5a6a" rx="3"/>
+  <rect x="30" y="155" width="90" height="6" fill="#4a5a6a" rx="3"/>
+  <text x="105" y="165" text-anchor="middle" fill="#e94560" font-family="sans-serif" font-size="10">Employee Performance</text>
+  <!-- Data Visualization -->
+  <rect x="210" y="85" width="170" height="110" fill="#243342" rx="6"/>
+  <rect x="220" y="95" width="60" height="80" fill="#0d6efd" rx="2"/>
+  <rect x="290" y="115" width="60" height="60" fill="#0d6efd" rx="2"/>
+  <text x="250" y="185" text-anchor="middle" fill="#4a5a6a" font-family="sans-serif" font-size="8">Products</text>
+  <text x="320" y="185" text-anchor="middle" fill="#4a5a6a" font-family="sans-serif" font-size="8">Employees</text>
+  <!-- Footer -->
+  <text x="200" y="280" text-anchor="middle" fill="#4a5a6a" font-family="sans-serif" font-size="11">React • Redux • Ant Design • JWT • Zod</text>
+</svg>

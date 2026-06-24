@@ -141,9 +141,9 @@ export function Contact() {
                   </>
                 )}
               </Button>
-              <p className="text-xs text-muted-foreground font-mono">
+              {/* <p className="text-xs text-muted-foreground font-mono">
                 * This is a UI demo — no message is actually sent.
-              </p>
+              </p> */}
             </form>
           </Reveal>
         </div>

@@ -80,10 +80,10 @@ export function Footer() {
 
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-border pt-8">
           <p className="text-xs text-muted-foreground font-mono">
-            © 2026 {profile.name}. All rights reserved.
+            © {new Date().getFullYear()} {profile.name}. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground font-mono">
-            Built with Next.js &amp; Tailwind CSS
+            Powered by Ripon Web Tech
           </p>
         </div>
       </div>

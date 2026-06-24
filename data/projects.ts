@@ -110,10 +110,10 @@ export const projects: Project[] = [
       "A modern e-commerce platform built with Next.js, TypeScript, and Tailwind CSS.",
     longDescription:
       "NextBazaar is a full-featured e-commerce website where users can browse products, add to cart, and place orders. Includes product filtering, search, and user authentication.",
-    image: "/project-nextbazaar.svg",
+    image: "/nextbazar.PNG",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Jest", "Playwright"],
     category: ["Next.js", "Full Stack"],
-    liveUrl: "https://nextbazaar.vercel.app",
+    liveUrl: "https://next-bazaar-ashy.vercel.app",
     githubUrl: "https://github.com/rhshuvo44/NextBazaar",
     status: "Completed",
     featured: true,
@@ -126,7 +126,7 @@ export const projects: Project[] = [
       "A premium Next.js template designed for the textile industry.",
     longDescription:
       "Textiles is a professional Next.js template featuring product galleries, quotation forms, blog sections, and an admin panel. Styled with Tailwind CSS and animated with Framer Motion.",
-    image: "/project-textiles.svg",
+    image: "/textiles.PNG",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "DaisyUI", "Framer Motion"],
     category: ["Next.js"],
     liveUrl: "https://textiles.vercel.app",
@@ -158,7 +158,7 @@ export const projects: Project[] = [
       "A food delivery app using Firebase authentication and real-time database.",
     longDescription:
       "Foodi is a restaurant application where users can browse menus, place orders, and track order status in real-time. Firebase Authentication and Firestore handle data management.",
-    image: "/project-foodi.svg",
+    image: "/foodi.PNG",
     tags: ["React", "Firebase", "Tailwind CSS", "DaisyUI", "Vite"],
     category: ["React"],
     liveUrl: "https://foodi-zeta.vercel.app",
@@ -174,7 +174,7 @@ export const projects: Project[] = [
       "A creative portfolio template built with Create React App.",
     longDescription:
       "Pofo is a modern portfolio template designed for freelancers, designers, and developers. Features responsive layout, animations, and a contact form.",
-    image: "/project-pofo.svg",
+    image: "/pofo.PNG",
     tags: ["React", "JavaScript", "CSS3", "HTML5"],
     category: ["React"],
     liveUrl: "https://pofo1.netlify.app",
@@ -190,7 +190,7 @@ export const projects: Project[] = [
       "A transport and logistics HTML template with Bootstrap and CSS animations.",
     longDescription:
       "Logixs is a professional HTML template for transport and logistics companies. Features Bootstrap 5, WOW.js animations, and a fully responsive design.",
-    image: "/project-logixs.svg",
+    image: "/logixs.PNG",
     tags: ["HTML5", "CSS3", "Bootstrap 5", "JavaScript", "WOW.js"],
     category: ["React"],
     liveUrl: "https://rhshuvo44.github.io/logixs-transport-logistics-html-template/",
